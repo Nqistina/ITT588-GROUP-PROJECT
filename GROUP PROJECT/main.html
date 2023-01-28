@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Number Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+    <h1>Number Converter</h1>
+    <form>
+      <label for="base">From </label>
+      <select id="base">
+        <option value="2">Binary</option>
+        <option value="10">Decimal</option>
+        <option value="16">Hexadecimal</option>
+      </select>
+      <label for="output_base">To</label>
+      <select id="output_base">
+        <option value="2">Binary</option>
+        <option value="10">Decimal</option>
+        <option value="16">Hexadecimal</option>
+      </select>
+      <br><br>
+      <label for="input">Enter number:</label>
+      <input type="text" id="input" placeholder="Enter a number">
+      <br><br>
+      <button type="button" onclick="convert()">Convert</button>
+    </form>
+    <br>
+    <p id="result"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
