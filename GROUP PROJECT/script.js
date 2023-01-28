@@ -7,5 +7,5 @@ function convert() {
     var decimal = parseInt(input, base);
     var output = decimal.toString(output_base);
 
-    result.innerHTML = "The converted number is: " + output;
+    result.innerHTML = "The converted number is : " + output;
 }
